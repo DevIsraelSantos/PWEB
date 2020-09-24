@@ -1,0 +1,10 @@
+const N1 = prompt("Num 1:")
+const N2 = prompt("Num 2:")
+const soma = parseFloat(N1) + parseFloat(N2)
+const subtracao = parseFloat(N1) - parseFloat(N2)
+const divisao = parseFloat(N1) / parseFloat(N2)
+const resto = parseFloat(N1) % parseFloat(N2)
+alert(N1 + " + " + N2 + " = " + soma + "\n" + 
+	N1 + " - " + N2 + " = " + subtracao + "\n" + 
+	N1 + " / " + N2 + " = " + divisao + "\n" + 
+	N1 + " % " + N2 + " = " + resto)
