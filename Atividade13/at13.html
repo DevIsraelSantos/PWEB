@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+    <script src="./at13.js"></script>
+</head>
+<body>
+   
+<body onload="ocultar()">
+	<label for="curso">Curso: </label>
+	<select id="curso" onchange="perguntar()">
+		<option value="">Selecione...</option>
+		<option value="ads">Análise e Desenvolvimento de Sistemas</option>
+		<option value="ea">Eletrônica Automotiva</option>
+		<option value="fm">Fabricação Mecânica</option>
+	</select>
+
+	<div id="questionamento">
+		<p>Certeza que deseja ir para o curso?</p>
+		<button id="questSim" onclick="sim()">Sim</button>
+		<button id="questNao" onclick="nao()">Não</button>
+	</div>
+
+	<script>
+		
+	</script>
+</body>
+</html>
