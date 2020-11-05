@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+    <script src="./at12.js"></script>
+</head>
+<body>
+    
+<form name="form1">
+  <fieldset>
+    <h1>Formulário Principal</h1>  
+      
+    Nome:<br><input type="text" id="name" name="name"><br>
+    Email:<br><input type="email" id="email" name="email"><br>
+    Comentário:<br><textarea name="comment" form="form1" id="comment">Digite aqui...</textarea><br>
+    <br>
+    <h2>Pesquisa</h2>
+    <label for="checkbox">Primeira vez nessa página?</label><br><br>
+      
+    <input type="radio" id="rdb1" name="rdb1" onclick="desm2()">Sim
+    <input type="radio" id="rdb2" name="rdb2" onclick="desm1()">Não<br>
+    <input type="submit" value="Enviar" onclick="validar()">
+  </fieldset>
+</form>
+
+
+</body>
+</html>
